@@ -9,7 +9,7 @@ public class Main {
     {
      Scanner read = new Scanner(System.in);
      System.out.println("Enter your Kool name: ");
-     String input = read.next();
+     String input = read.nextLine();
      
      if (input.equals("Alice") || input.equals("Bob"))
        System.out.println("Hello " + input + ".Welcome to my world!");
